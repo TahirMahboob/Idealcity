@@ -1,3 +1,4 @@
+// green Navbar combination its only learning purpose
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -29,6 +30,7 @@ const Navbar = () => {
   };
 
   return (
+    <>
     <nav className="bg-green-700 p-4">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-white">
         <div className="relative flex items-center justify-between h-16">
@@ -415,6 +417,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </>
   );
 };
 
